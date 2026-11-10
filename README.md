@@ -30,6 +30,7 @@ After publishing a new app release with the app repository's `scripts/publish.sh
 copy `dist/VERSION/smpl-menubar.rb` into `Casks/`, then run:
 
 ```sh
+brew trust --cask TechSupportz/tap/smpl-menubar # Homebrew 6+ audit permission
 brew style --cask Casks/smpl-menubar.rb
 brew audit --cask --online TechSupportz/tap/smpl-menubar
 ```
