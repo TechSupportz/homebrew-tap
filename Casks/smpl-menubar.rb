@@ -1,6 +1,6 @@
 cask "smpl-menubar" do
-  version "1.0.1"
-  sha256 "a22a31cb323ab69aeb54c6544b1f2787cc3cff6b856e43e0550c5874ddb1d25b"
+  version "1.0.2"
+  sha256 "a591af6bf2040083f53d4ac959cc0cf7df541e3f9cf0072f4af808100c61411a"
 
   url "https://github.com/TechSupportz/smpl-menubar/releases/download/v#{version}/smpl-menubar-#{version}-universal.zip"
   name "smpl.menubar"
